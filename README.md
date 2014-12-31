@@ -4,7 +4,8 @@ Collection of Distributed System algorithm implementations and examples
 
 ### sockets.echoserver  
 
-Illustrates building echo server & client using [Socket](http://docs.oracle.com/javase/7/docs/api/java/net/Socket.html)'s API
+Illustrates building echo server & client using
+[Socket](http://docs.oracle.com/javase/7/docs/api/java/net/Socket.html)'s API
 
 Running:
 
@@ -24,7 +25,8 @@ NOTE: You could terminate server instance by pressing `Ctrl+C`
 
 ### akka.chatserver  
 
-Chat Server implementation using [Akka](http://akka.io) & [Socket](http://docs.oracle.com/javase/7/docs/api/java/net/Socket.html)'s API
+Chat Server implementation using [Akka](http://akka.io) &
+[Socket](http://docs.oracle.com/javase/7/docs/api/java/net/Socket.html)'s API
 
   Running:  
 
@@ -34,17 +36,20 @@ Chat Server implementation using [Akka](http://akka.io) & [Socket](http://docs.o
     sbt "runMain com.am.ds.akka.chatserver.ChatServerApp 9000" 
     ```  
 
-* Initialize multiple command line client application instance's to simulate multiple users using the chat engine  
+* Initialize multiple command line client application instance's to simulate multiple users using
+the chat engine  
 
     ``` 
     sbt "runMain com.am.ds.akka.chatserver.CmdLineClient.CmdLineClientApp localhost 9000" 
     ```
 
-NOTE: you could terminate server and client instance's by pressing `Ctrl+C` in their respective terminal windows
+NOTE: you could terminate server and client instance's by pressing `Ctrl+C` in their respective
+terminal windows
 
 ### rmi.networkgame
 
-A simple Tron game implementation using [RMI](http://docs.oracle.com/javase/7/docs/api/java/rmi/package-summary.html)
+A simple Tron game implementation using
+[RMI](http://docs.oracle.com/javase/7/docs/api/java/rmi/package-summary.html)
 
 Running:
 
@@ -63,3 +68,8 @@ Running:
 You could play the game by pressing the frame to get the focus and then pressing either `left` or
 `right` arrows to move the line. Finally you could terminate the client and server session by
 sending `Ctrl+C`.
+
+### logicalclocks
+
+Implementation of [Lamport](http://en.wikipedia.org/wiki/Lamport_timestamps) and
+[Vector](http://en.wikipedia.org/wiki/Vector_clock) Clock's

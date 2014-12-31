@@ -2,7 +2,7 @@
 
 Collection of Distributed System algorithm implementations and examples
 
-### sockets.echoserver  
+### [sockets.echoserver  ](src/main/scala/com/am/ds/sockets/echoserver)
 
 Illustrates building echo server & client using
 [Socket](http://docs.oracle.com/javase/7/docs/api/java/net/Socket.html)'s API

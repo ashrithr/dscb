@@ -28,7 +28,7 @@ Chat Server implementation using [Akka](http://akka.io) & [Socket](http://docs.o
 
   Running:  
 
-* Initialize server side application  
+* Initialize server side application:  
 
     ``` 
     sbt "runMain com.am.ds.akka.chatserver.ChatServerApp 9000" 
@@ -41,3 +41,25 @@ Chat Server implementation using [Akka](http://akka.io) & [Socket](http://docs.o
     ```
 
 NOTE: you could terminate server and client instance's by pressing `Ctrl+C` in their respective terminal windows
+
+### rmi.networkgame
+
+A simple Tron game implementation using [RMI](http://docs.oracle.com/javase/7/docs/api/java/rmi/package-summary.html)
+
+Running:
+
+* Initialize RMI Tron server instance:
+
+    ```
+    sbt "runMain com.am.ds.rmi.networkgame.RMITronServer"
+    ```
+
+* Initialize **two** instances of Tron client's in two terminal windows:
+
+    ```
+    sbt "runMain com.am.ds.rmi.networkgame.RMITronClient"
+    ```
+
+You could play the game by pressing the frame to get the focus and then pressing either `left` or
+`right` arrows to move the line. Finally you could terminate the client and server session by
+sending `Ctrl+C`.

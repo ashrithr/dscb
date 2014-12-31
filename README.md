@@ -4,7 +4,9 @@ Collection of Distributed System algorithm implementations and examples
 
 ### sockets.echoserver  
 
-Illustrates building echo server & client using Socket's API  Running:  
+Illustrates building echo server & client using Socket's API
+
+**  Running** :
 
 * Initialize Server instance by running:  
 

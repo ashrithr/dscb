@@ -23,7 +23,7 @@ Running:
 
 NOTE: You could terminate server instance by pressing `Ctrl+C`
 
-### akka.chatserver  
+### [akka.chatserver  ](src/main/scala/com/am/ds/akka/chatserver)
 
 Chat Server implementation using [Akka](http://akka.io) &
 [Socket](http://docs.oracle.com/javase/7/docs/api/java/net/Socket.html)'s API
@@ -46,7 +46,7 @@ the chat engine  
 NOTE: you could terminate server and client instance's by pressing `Ctrl+C` in their respective
 terminal windows
 
-### rmi.networkgame
+### [rmi.networkgame](src/main/scala/com/am/ds/rmi/networkgame)
 
 A simple Tron game implementation using
 [RMI](http://docs.oracle.com/javase/7/docs/api/java/rmi/package-summary.html)
@@ -69,7 +69,7 @@ You could play the game by pressing the frame to get the focus and then pressing
 `right` arrows to move the line. Finally you could terminate the client and server session by
 sending `Ctrl+C`.
 
-### logicalclocks
+### [logicalclocks](src/main/scala/com/am/ds/logicalclocks)
 
 Implementation of [Lamport](http://en.wikipedia.org/wiki/Lamport_timestamps) and
 [Vector](http://en.wikipedia.org/wiki/Vector_clock) Clock's

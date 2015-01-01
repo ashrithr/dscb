@@ -82,6 +82,6 @@ Simple example illustrating how to perform DNS forward and reverse lookup's
 
 Example's illustrating how to perform simple file write and read serialization using
 
-* Java Serialization
-* Kryo Serialization
+* [Java](http://docs.oracle.com/javase/tutorial/jndi/objects/serial.html) Serialization
+* [Kryo](https://github.com/EsotericSoftware/kryo) Serialization
 * Scala Pickling (**TODO**)

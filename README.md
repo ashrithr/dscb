@@ -84,4 +84,4 @@ Example's illustrating how to perform simple file write and read serialization u
 
 * [Java](http://docs.oracle.com/javase/tutorial/jndi/objects/serial.html) Serialization
 * [Kryo](https://github.com/EsotericSoftware/kryo) Serialization
-* Scala Pickling (**TODO**)
+* [Scala Pickling](https://github.com/scala/pickling) (**TODO**)

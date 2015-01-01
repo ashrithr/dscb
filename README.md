@@ -73,3 +73,7 @@ sending `Ctrl+C`.
 
 Implementation of [Lamport](http://en.wikipedia.org/wiki/Lamport_timestamps) and
 [Vector](http://en.wikipedia.org/wiki/Vector_clock) Clock's
+
+### [nameservices](src/main/scala/com/am/ds/nameservices)
+
+Simple example illustrating how to perform DNS forward and reverse lookup's

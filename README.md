@@ -77,3 +77,11 @@ Implementation of [Lamport](http://en.wikipedia.org/wiki/Lamport_timestamps) and
 ### [nameservices](src/main/scala/com/am/ds/nameservices)
 
 Simple example illustrating how to perform DNS forward and reverse lookup's
+
+### [serialization](src/main/scala/com/am/ds/serialization)
+
+Example's illustrating how to perform simple file write and read serialization using
+
+* Java Serialization
+* Kryo Serialization
+* Scala Pickling (**TODO**)

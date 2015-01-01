@@ -13,5 +13,6 @@ scalaSource in Compile := baseDirectory.value / "src"
 // library dependencies
 libraryDependencies ++= Seq(
    "com.typesafe.akka" %% "akka-actor" % "2.3.8",
-   "org.scala-lang" % "scala-swing" % "2.11.0-M7"
+   "org.scala-lang" % "scala-swing" % "2.11.0-M7",
+   "com.esotericsoftware.kryo" %  "kryo" % "2.22"
 )

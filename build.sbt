@@ -10,6 +10,8 @@ crossPaths := false
 // set the main Scala source directory to be <base>/src
 scalaSource in Compile := baseDirectory.value / "src"
 
+scalacOptions ++= Seq("-unchecked", "-deprecation", "-Xlint")
+
 // library dependencies
 libraryDependencies ++= Seq(
    "com.typesafe.akka" %% "akka-actor" % "2.3.8",

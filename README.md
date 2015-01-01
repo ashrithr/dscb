@@ -85,3 +85,8 @@ Example's illustrating how to perform simple file write and read serialization u
 * [Java](http://docs.oracle.com/javase/tutorial/jndi/objects/serial.html) Serialization
 * [Kryo](https://github.com/EsotericSoftware/kryo) Serialization
 * [Scala Pickling](https://github.com/scala/pickling) (**TODO**)
+
+### [paxos](src/main/scala/com/am/ds/paxos)
+
+Implementation of [Paxos](http://en.wikipedia.org/wiki/Paxos_(computer_science)) using
+[Akka](http://akka.io)

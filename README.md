@@ -91,7 +91,7 @@ Example's illustrating how to perform simple file write and read serialization u
 Implementation of [Paxos](http://en.wikipedia.org/wiki/Paxos_(computer_science)) using
 [Akka](http://akka.io)
 
-### [RAFT](src/main/scala/com/am/ds/raft)
+### [raft](src/main/scala/com/am/ds/raft)
 
 An implementation of the [Raft distributed consensus algorithm](http://raftconsensus.github.io)
 

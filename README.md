@@ -90,3 +90,17 @@ Example's illustrating how to perform simple file write and read serialization u
 
 Implementation of [Paxos](http://en.wikipedia.org/wiki/Paxos_(computer_science)) using
 [Akka](http://akka.io)
+
+### [RAFT](src/main/scala/com/am/ds/raft)
+
+An implementation of the [Raft distributed consensus algorithm](http://raftconsensus.github.io)
+
+Current implementation features:
+
+* Leader Election
+* Log Replication
+* Cluster Membership Changes
+* Log Compaction
+* Finagle based Thrift RPC between members
+
+Running an example distributed KVStore built using RAFT: `sbt test`.
